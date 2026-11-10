@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #E8EAF7;
+    color: #253B74;
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-morge {
+  font-family: 'Morge', 'Anton', 'Archivo Black', -apple-system, sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* Custom scrollbars matching midnight-velvet / dream-blue */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #E8EAF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #253B74;
+  border-radius: 0px;
+}
